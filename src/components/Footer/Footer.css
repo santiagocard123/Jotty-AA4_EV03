@@ -1,0 +1,45 @@
+footer {
+  background-color: #050505;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.social-icons {
+  margin-top: 0.5rem;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-size: 1.25rem; 
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #1ce971; 
+}
+
+.social-icons i {
+  transition: transform 0.3s ease; 
+}
+
+.social-icons a:hover i {
+  transform: scale(1.1); 
+}
